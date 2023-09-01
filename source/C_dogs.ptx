@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="C_dogs" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Dogs</title>
+  <idx><h>dogs</h></idx>
+  
+  <introduction>
+    <p>
+      Dogs are neat! There are so many different breeds and types of dogs. Let's explore some of the standard categories of dogs.
+    </p>
+  </introduction>
+
+  <xi:include href="S_toy_group.ptx" />
+
+  <conclusion>
+    <p>
+      And that's it for dogs! Hope you learned a lot!
+    </p>
+  </conclusion>
+
+  
+</chapter>
