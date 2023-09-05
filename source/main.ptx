@@ -37,12 +37,39 @@
           </shortlicense>
         </copyright>
       </colophon>
+
+      <preface>
+        <title>Materials</title>
+        
+        <p>
+          The materials required for this book are just you! Read on and learn about dogs!
+        </p>
+      </preface>
+
     </frontmatter>
 
     <xi:include href="C_dogs.ptx" />
 
     <backmatter xml:id="backmatter">
       <title>Backmatter</title>
+
+      <appendix>
+        <title>Acknowledgements</title>
+        <p>
+          This book was made possible by the internet. Thanks for teaching my enough about dogs to write a simple example book.
+        </p>
+
+      </appendix>
+
+      <solutions xml:id="app_answers" divisional='hint answer solution' inline='hint answer solution'>
+        <title>Answers to All Exercises</title>
+        
+        
+      </solutions>
+
+      <index>
+        <index-list/>
+      </index>
 
       <colophon>
         <p> This book was authored in <pretext />. </p>
