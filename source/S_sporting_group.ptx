@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="S_sporting_group">
+  <title>Sporting Group</title>
+
+  <subsection xml:id="SS_examples1">
+    <title>Walk-Through Examples in <tag>p</tag></title>
+    
+  
+
+  <p>
+    For instance, you can type regular text! Yay sporting group dogs! 23! é!
+  </p>
+
+  <p>
+    This is math! <m>a^2 + b^2 = c^2</m> Yay!
+
+    Next, let's look at displayed math!
+    <me>
+      \frac{1}{2} x = 2
+    </me>
+    <men xml:id="eqn-example1">
+      \sqrt{4} = 2
+    </men>
+
+    <md>
+      <mrow>\frac{1}{2} x \amp = 2</mrow>
+      <mrow>2 * \frac{1}{2} x \amp = 2 * 2</mrow>
+      <mrow>x \amp = 4</mrow>
+    </md>
+
+    <mdn>
+      <mrow number="no"> \sqrt{10} \amp \ne 4</mrow>
+      <mrow>\sqrt{25} \amp = 5</mrow>
+    </mdn>
+    
+    
+  </p>
+
+  <p>
+    In R, there are multiple packages that can be used such as <c>ggplot2</c> and <c>rmarkdown</c>. Moreover, you can install and import packages super quick!
+    <cd>
+      <cline>install.packages("ggplot2")</cline>
+      <cline>library(ggplot2)</cline>
+    </cd>
+  </p>
+
+  </subsection>
+
+  <subsection xml:id="SS_examples2">
+    <title>Pre-Made Examples in <tag>p</tag></title>
+
+    <p>
+      If you want a quote, use the <tag>q</tag> tag: Sporting group dogs are <q>Naturally active and alert</q> and <q>make likeable, well-rounded companions</q> (American Kennel Club). Blockquotes work too!
+    </p>
+    <blockquote>
+      <p>
+        Dogs are good friends.
+      </p>
+      <attribution>Unknown</attribution>
+    </blockquote>
+    
+    <p>
+      You can also make lists:
+      <ul>
+        <li>
+          <p>
+            Spaniels
+          </p>
+        </li>
+        <li>
+          <p>
+            Pointers
+          </p>
+        </li>
+        <li>
+          <p>
+            Retrievers
+          </p>
+        </li>
+        <li>
+          <p>
+            Setters
+          </p>
+        </li>
+      </ul>
+
+      <ol>
+        <li>
+          <p>
+            Find a dog you like
+          </p>
+        </li>
+        <li>
+          <p>
+            Give it a name
+          </p>
+        </li>
+        <li>
+          <p>
+            Play with it and love it forever
+          </p>
+        </li>
+      </ol>
+
+      <dl>
+        <li>
+          <title>Curly</title>
+          <p>
+            Dogs with curly fur have curls in their fur.
+          </p>
+        </li>
+        <li>
+          <title>Short-Haired</title>
+          <p>
+            Short-haired dogs will have fur that is not long.
+          </p>
+        </li>
+      </dl>
+    </p>
+
+    <p>
+      Sometimes, you need to apply emphasis to words. You <em>can't</em> use italics or bold with <pretext /> but you <alert>can</alert> communicate based on a tone. Sorry, <foreign>c'est la vie</foreign>!
+    </p>
+
+    <p>
+      Have you ever read <pubtitle>Dogs</pubtitle> by Lewis Blackwell and Tim Flach? It's all about dogs! If you need something shorter, try <articletitle>Dogs Are Even More Like Us Than We Thought</articletitle> from <url href="https://www.nationalgeographic.com/animals/article/150720-dogs-animals-science-pets-evolution-intelligence" visual="nationalgeographic.com/">National Geographic</url>. These resources are great.<fn>There are many more resources to read about dogs! You could even watch a documentary!</fn>
+    </p>
+
+    <p>
+      Remember, this section is all about the Sporting Group. If you want to learn about the Toy Group, try <xref ref="S_toy_group"/>! In fact, all we have right now are two sections: Toy Group &amp; Sporting Group. We have sections planned for the rest of the groups and will be titled &lt;Group Name&gt; Group.
+    </p>
+    
+  </subsection>
+
+  <subsection xml:id="SS_examples3">
+    <title>Pre-Made Examples with Other Elements</title>
+
+    <figure xml:id="fig-sadie">
+
+      <caption>My Dog Sadie, a goldendoodle</caption>
+
+      <image source="sadie.jpg" width="80%">
+        <description>A tan-colored dog laying in an empty green grass field illuminated by sunshine.</description>
+      </image>
+      
+    </figure>
+
+    <example xml:id="ex-example">
+      <p>
+        For example, you can create an example!
+      </p>
+    </example>
+
+    <example xml:id="ex-example-extended">
+      <introduction>
+        <p>
+          There are many examples of sporting group dogs. We can describe some.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Labrador Retriever...
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Golden Retriever
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            American Water Spaniel
+          </p>
+        </statement>
+      </task>
+    </example>
+
+    <!-- <activity>, <exploration>, <project> also work -->
+
+    <theorem xml:id="thm-dogs-cute">
+      <statement>
+        <p>
+          Dogs are humankind's best friend.
+        </p>
+      </statement>
+      <proof>
+        <p>
+          Just ask the majority of history.
+        </p>
+      </proof>
+    </theorem>
+
+    <!-- <corollary>, <axiom>, <lemma>, <algorithm>, <proposition>, etc. -->
+
+    <definition xml:id="def-dogs">
+      <statement>
+        <p>
+          Sporting dogs are hunters and are good at retrieving game.
+        </p>
+      </statement>
+    </definition>
+
+    <assemblage xml:id="assemb-my-dog">
+      <title>Note on My Dog</title>
+      <p>
+        It's true that my dog is half sporting group, but would not be good at any typical sporting group activities (such as hunting).
+      </p>
+    </assemblage>
+
+    <table xml:id="tbl-sporting">
+      <title>Examples of Sporting Group Dogs</title>
+
+      <tabular>
+        <row bottom="medium" header="yes">
+          <cell right="minor">Spaniels</cell>
+          <cell right="minor">Pointers</cell>
+          <cell right="minor">Retrievers</cell>
+          <cell>Setters</cell>
+        </row>
+
+        <row bottom="minor">
+          <cell right="minor">American Water Spaniel</cell>
+          <cell right="minor">Bracco Italiano</cell>
+          <cell right="minor">Golden Retriever</cell>
+          <cell>English Setter</cell>
+        </row>
+
+        <row>
+          <cell right="minor">English Cocker Spaniel</cell>
+          <cell right="minor">German Shorthaired Pointer</cell>
+          <cell right="minor">Curly-Coated Retriever</cell>
+          <cell>Gordon Setter</cell>
+        </row>
+      </tabular>
+    </table>
+
+    <exercise xml:id="chkpt-sporting">
+      <statement>
+        <p>
+          Give one example of a sporting group dog.
+        </p>
+      </statement>
+    </exercise>
+    
+    
+  </subsection>
+
+
+  <exercises xml:id="exers-sporting">
+
+    <exercise>
+      <statement>
+        <p>
+          What were sporting group dogs used for in the past?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Give an example of a dog from each of the following categories.
+        </p>
+      </introduction>
+      
+      <task>
+        <statement>
+          <p>
+            Spaniels
+          </p>
+        </statement>
+        <hint>
+          <p>
+            Use <xref ref="tbl-sporting"/> for help!
+          </p>
+        </hint>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Pointers
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Perhaps you could say the Bracco Italiano or the German Shorthaired Pointer.
+          </p>
+        </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Retrievers
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Setters
+          </p>
+        </statement>
+      </task>
+    </exercise>
+    
+  </exercises>
+
+  
+  
+</section>
